@@ -37,18 +37,18 @@ projects[] = "plupload"
 ; Editor.
 projects[] = "ckeditor"
 projects[] = "imce"
-projects[] = "webform"
 projects[] = "imce_mkdir"
+projects[] = "webform"
 
 ; Display.
-projects[] = "views"
 projects[] = "panels"
+projects[] = "views"
 
 ; SEO.
 projects[] = "globalredirect"
+projects[] = "google_analytics"
 projects[] = "metatag"
 projects[] = "pathauto"
-projects[] = "google_analytics"
 
 ; Development.
 projects[] = "devel"
@@ -58,6 +58,7 @@ projects[] = "strongarm"
 
 ; Misc.
 projects[] = "ctools"
+projects[] = "i18n"
 projects[] = "jquery_update"
 projects[] = "l10n_update"
 projects[] = "libraries"
@@ -67,4 +68,9 @@ projects[] = "rules"
 projects[] = "token"
 projects[] = "transliteration"
 projects[] = "views_bulk_operations"
-i18n
+
+; Delete samples directory following drush make.
+libraries[ckeditor][download][type] = "git"
+libraries[ckeditor][download][url] = "git://github.com/ckeditor/ckeditor-releases.git"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
