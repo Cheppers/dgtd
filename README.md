@@ -7,7 +7,7 @@ Az alábbi segédanyag a [Drupal Global Training Day 2014-es](https://www.facebo
 **Az oktatók közreműködésével:**
 
 - Palócz István (azaz: *pp*): [https://tanarurkerem.hu/](https://tanarurkerem.hu/);
-- Kuszing János (azaz: *janoka*): [https://netstudio.hu](https://netstudio.hu).
+- Kuszing János (azaz: *janoka*): [https://netstudio.hu/](https://netstudio.hu/).
 
 Ez előadás helyszínét a [Cheppers](http://cheppers.com/) adja.
 
@@ -30,7 +30,7 @@ Feltehetően amúgy is van a gépeden, de esetleg érdemes frissíteni:
 
 ### Secure Shell (ssh) kliens telepítése
 
-A Ssh kliens telepítése **választható** előfeladat, a gyakorlati képzéshez nem feltétlenül kell.
+A Ssh kliens telepítése **választható** elő feladat, a gyakorlati képzéshez nem feltétlenül kell.
 
 Az ssh klienst a virtuális gép távoli elérésére használjuk, sokkal kényelmesebb ssh-n keresztül kezelni a gépet, mint a virtuális gép felületén.
 
@@ -55,6 +55,8 @@ Lépések:
 
 ## Virtuális gép elérése
 
+A gyakorlatot megelőzően célszerű lehet ezeket leellenőrizni, hogy a virtuális gép futása közben elérhetőek-e. Az utolsó kettő sor csak haladószinten érdekes.
+
 | Megnevezés            | Url                                                                    | Felhasználó | Jelszó |
 | --------------------- | ---------------------------------------------------------------------- | ----------- | ------ |
 | Weboldal              | [http://localhost:8080/](http://localhost:8080/)                       |             |        |
@@ -63,11 +65,17 @@ Lépések:
 | Ssh                   | például: `ssh -p 2222 root@localhost`                                  | root        | titok  |
 | Webszerver könyvtára  | `/srv/www`                                                             |             |        |
 
-
 ## Drupal telepítéshez
+
+Ezekre a beállításokra a gyakorlat közben lesz szükség, a Drupal telepítésekor.
 
 | Megnevezés              | Url                                                                  | Felhasználó | Jelszó |
 | ----------------------- | -------------------------------------------------------------------- | ----------- | ------ |
 | Weboldal elérése        | [http://localhost:8080/dgtd/](http://localhost:8080/dgtd/)           |             |        |
 | MySQL adatbázis elérése | dgtd                                                                 | dgtd        | titok  |
 
+## Egyéb információ
+
+| Megnevezés              | Érték                                                                        |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| Dgtd Drupal a GitHubon  | [http://github.com/janoka/dgtd-drupal](http://github.com/janoka/dgtd-drupal) |

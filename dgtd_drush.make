@@ -54,8 +54,10 @@ projects[] = "pathauto"
 
 ; Development.
 projects[] = "devel"
+projects[] = "devel_themer"
 projects[] = "environment_indicator"
 projects[] = "features"
+projects[] = "simplehtmldom"
 projects[] = "strongarm"
 
 ; Misc.
