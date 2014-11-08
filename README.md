@@ -4,7 +4,7 @@
 
 <!-- MarkdownTOC depth=3 -->
 
-- [Bevezető][bevezeto]
+- [Bevezető][#bevezeto]
 - [Telepítés][telepites]
   - [VirtualBox][virtualbox]
   - [Valamely ismert böngésző][browser]
@@ -18,7 +18,7 @@
 <!-- /MarkdownTOC -->
 
 
-## Bevezető[bevezeto]
+## Bevezető [#bevezeto]
 
 Az alábbi segédanyag a [Drupal Global Training Day 2014-es](https://www.facebook.com/events/1523377531234105/) előadás kapcsán készült.
 
