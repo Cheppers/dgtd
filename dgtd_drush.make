@@ -32,7 +32,9 @@ projects[] = "inline_entity_form"
 projects[] = "link"
 projects[] = "media"
 projects[] = "phone"
-projects[] = "plupload"
+
+; Unfortunate this module does not work with drush make.
+; projects[] = "plupload"
 
 ; Editor.
 projects[] = "ckeditor"
@@ -68,6 +70,14 @@ projects[] = "rules"
 projects[] = "token"
 projects[] = "transliteration"
 projects[] = "views_bulk_operations"
+
+; Themes.
+projects[] = "adminimal_theme"
+projects[] = "bluemasters"
+projects[] = "bootstrap"
+projects[] = "corporateclean"
+projects[] = "marinelli"
+projects[] = "omega"
 
 ; Delete samples directory following drush make.
 libraries[ckeditor][download][type] = "git"
