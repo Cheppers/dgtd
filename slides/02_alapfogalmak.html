@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Drupal Webmester</title>
+  <meta name="description" content="Drupal Webmester.">
+  <meta name="author" content="Kuszing János">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/janoka.css" id="theme">
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+  <script>
+    document.write('<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+  </script>
+  <!--[if lt IE 9]><script src="lib/js/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<!-- Slides begin here. -->
+<div class="reveal">
+  <div class="slides">
+
+    <!-- Start -->
+    <section id="start">
+      <h1>Alapismeretek</h1>
+    </section>
+
+    <!-- Tartalomkezelő rendszerek -->
+    <section id="cms">
+      <section data-background="images/02/02_matrjoska.jpg">
+        <h2 class="kontur">Tartalomkezelő rendszerek felépítése (TKR=CMS)</h2>
+      </section>
+      <section>
+        <h2>Definició a CMS-re (Wikipédia) </h2>
+        <iframe class="stretch" src="http://hu.wikipedia.org/wiki/Tartalomkezel%C5%91_rendszerek"></iframe>
+      </section>
+      <section>
+        <h2>Webalkalmazás fejlesztési keretrendszer (WAF)</h2>
+        <iframe class="stretch" src="http://en.wikipedia.org/wiki/Web_application_framework"></iframe>
+      </section>
+      <section>
+        <h2>Más rendszerek CMS-ek</h2>
+        <ul>
+          <li>Wordpress</li>
+          <li>Joomla</li>
+          <li>Typo3</li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- Általános működés -->
+    <section id="altalanos-mukodes">
+      <section>
+        <h2>Általános működés</h2>
+      </section>
+      <section>
+        <h2>Ügyfél (client) és kiszolgáló (server)</h2>
+        <img class="stretch" src="images/02/02_fastfood.jpg"/>
+      </section>
+      <section>
+        <h2>Ügyfél (client) és kiszolgáló (server)</h2>
+        <img class="stretch" src="images/02/02_client-server_architecture.svg"/>
+      </section>
+      <section>
+        <h2>Webszerver működése</h2>
+        <img class="stretch" src="images/02/02_webserver_felepites.png"/>
+      </section>
+    </section>
+
+    <!-- Érvek a Drupal használatára -->
+    <section id="ervek-a-drupal-mellett">
+      <section data-background="images/02/02_drupal_five.jpg">
+        <h2 class="kontur">Érvek a Drupal használatára</h2>
+      </section>
+      <section>
+        <h2>Nyilt forráskódú</h2>
+        <img src="images/02/02_opensource-logo.svg" alt="Open Source" class="stretch"/>
+      </section>
+      <section data-background="images/02/02_szabadon_felhasznalhato.jpg">
+        <h2 class="kontur">Szabadon felhasználható</h2>
+      </section>
+      <section data-background="images/02/02_konnyu_hasznalni.jpg">
+        <h2 class="kontur">Könnyű kezelhetőség</h2>
+      </section>
+      <section>
+        <h2>Elterjedt<br/>(Drupal Core Usage)</h2>
+        <iframe class="stretch" src="http://drupal.org/project/usage/drupal"></iframe>
+      </section>
+      <section>
+        <h2>Jól dokumentált</h2>
+        <iframe class="stretch" src="http://api.drupal.org/"></iframe>
+      </section>
+      <section>
+        <h2>További előnyök</h2>
+        <ul>
+          <li>sok kiegészítő modul,</li>
+          <li>rugalmasan bővíthető tartalmak,</li>
+          <li>könnyen kezelhető űrlapok (webform),</li>
+          <li>listák és tartalmak könnyű megjelenítése (views)</li>
+          <li>komplex funkcionalitás</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Mikor ne használjuk?</h2>
+        <p>Csak, ha egy cél van.</p>
+        <ul>
+          <li>Blog: <a href="https://ghost.org/" target="_blank">Ghost</a></li>
+          <li>LMS: <a href="https://moodle.org/?lang=hu" target="_blank">Moodle</a></li>
+          <li>Wiki: <a href="http://www.mediawiki.org/wiki/MediaWiki" target="_blank">MediaWiki</a></li>
+          <li>Fórum: <a href="http://phpbb.hu/" target="_blank">PhpBB</a></li>
+          <li>Bug tracker: <a href="http://trac.edgewall.org/" target="_blank">Trac</a></li>
+          <li>Projekj: <a href="http://www.redmine.org/" target="_blank">Redmine</a></li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- Közösség -->
+    <section id="kozosseg">
+      <section data-background="images/02/">
+        <h2>Közösség</h2>
+      </section>
+      <section>
+        <blockquote>Come for the software, stay for the community."</blockquote>
+        <blockquote>Gyere egy szoftver miatt, maradj a közösségért."</blockquote>
+      </section>
+      <section>
+        <h2>Magyar közösség weboldala</h2>
+        <iframe class="stretch" src="http://drupal.hu"></iframe>
+        <p><a href="http://drupal.hu" target="_blank">http://drupal.hu</a></p>
+      </section>
+      <section>
+        <h2>Nemzetközi közösség weboldala</h2>
+        <iframe class="stretch" src="http://drupal.org"></iframe>
+        <p><a href="http://drupal.org" target="_blank">http://drupal.org</a></p>
+      </section>
+    </section>
+
+    <section id="esemenyek">
+      <section>
+        <h2>Események</h2>
+      </section>
+      <section>
+        <h2>Drupical</h2>
+        <iframe class="stretch" src="http://www.drupical.com/"></iframe>
+        <p><a href="http://www.drupical.com/" target="_blank">http://www.drupical.com/</a></p>
+      </section>
+      <section>
+        <h2>Január 25-26: Drupal Global Sprint Weekend</h2>
+        <iframe src="https://groups.drupal.org/node/383178" class="stretch"></iframe>
+        <p><a href="https://groups.drupal.org/node/383178" target="_blank">https://groups.drupal.org/node/383178</a></p>
+      </section>
+      <section>
+        <h2>Március 24-30: Drupal Developer Days<br/>Szeged</h2>
+        <iframe src="http://szeged2014.drupaldays.org/" class="stretch"></iframe>
+        <p><a href="http://szeged2014.drupaldays.org/" target="_blank">http://szeged2014.drupaldays.org/</a></p>
+      </section>
+      <section>
+        <h2>Május 17-18: Drupal Camp<br/>Alpe-Adria</h2>
+        <iframe src="http://2014.drupalalpeadria.org/" class="stretch"></iframe>
+        <p><a href="http://2014.drupalalpeadria.org/" target="_blank">http://2014.drupalalpeadria.org/</a></p>
+      </section>
+      <section>
+        <h2>Augusztus vége: Drupalaton</h2>
+        <iframe class="stretch" src="http://drupalaton.hu/"></iframe>
+        <p><a href="http://drupalaton.hu/" target="_blank">http://drupalaton.hu/</a></p>
+      </section>
+      <section>
+        <h2>Szeptember 29-től, október 3-ig:<br/>DrupalCon Amsterdam</h2>
+        <iframe src="https://amsterdam2014.drupal.org/" class="stretch"></iframe>
+        <p><a href="https://amsterdam2014.drupal.org/" target="_blank">https://amsterdam2014.drupal.org/</a></p>
+      </section>
+      <section>
+        <h2>Szeptember 29-től, október 3-ig:<br/>DrupalCon Amsterdam</h2>
+        <iframe src="https://amsterdam2014.drupal.org/" class="stretch"></iframe>
+        <p><a href="https://amsterdam2014.drupal.org/" target="_blank">https://amsterdam2014.drupal.org/</a></p>
+      </section>
+      <section>
+        <h2>Volt: DrupalCon Prague</h2>
+        <iframe src="https://prague2013.drupal.org/" class="stretch"></iframe>
+        <p><a href="https://prague2013.drupal.org/" target="_blank">https://prague2013.drupal.org/</a></p>
+      </section>
+      <section>
+        <h2>November: Drupal Hétvége 2014.</h2>
+        <iframe src="http://drupal.hu/konferencia/2013" class="stretch"></iframe>
+        <p>Tavalyi: <a href="http://drupal.hu/konferencia/2013" target="_blank">http://drupal.hu/konferencia/2013</a></p>
+      </section>
+    </section>
+
+    <!-- Források -->
+    <section id="forrasok">
+      <section>
+        <h2>Források</h2>
+      </section>
+      <section>
+        <h2>Drupal.org</h2>
+        <iframe src="http://drupal.org/" class="stretch"></iframe>
+        <p><a href="http://drupal.org/" target="_blank">http://drupal.org/</a></p>
+      </section>
+      <section>
+        <h2>Drupal Modules</h2>
+        <iframe src="http://drupalmodules.com/" class="stretch"></iframe>
+        <p><a href="http://drupalmodules.com/" target="_blank">http://drupalmodules.com/</a></p>
+      </section>
+      <section>
+        <h2>Drupal Videotorium</h2>
+        <iframe src="http://videotorium.hu/hu/search/all?q=Drupal" class="stretch" style="background-color: #fff;"></iframe>
+        <p><a href="http://videotorium.hu/hu/search/all?q=Drupal" target="_blank">http://videotorium.hu/hu/search/all?q=Drupal</a></p>
+      </section>
+    </section>
+
+  </div> <!-- end: slides -->
+</div> <!-- end: reveal -->
+<!-- Slide End. -->
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Parallax scrolling
+    // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+    // parallaxBackgroundSize: '2100px 900px',
+
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    ]
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Drupal Webmester</title>
+  <meta name="description" content="Drupal Webmester.">
+  <meta name="author" content="Kuszing János">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="css/reveal.min.css">
+  <link rel="stylesheet" href="css/theme/janoka.css" id="theme">
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+  <script>
+    document.write('<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+  </script>
+  <!--[if lt IE 9]><script src="lib/js/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<!-- Slides begin here. -->
+<div class="reveal">
+  <div class="slides">
+
+    <!-- Start -->
+    <section id="start">
+      <h1>Drupal<br/>Global Training Day 2014.</h1>
+      <p>
+        &copy; 2010-2014. Kuszing János, Palócz István
+      </p>
+    </section>
+
+    <!-- Miről lesz szó -->
+    <section id="mirol_lesz_szo">
+      <h2>Összefoglaló</h2>
+      <ul>
+        <li>Közreműködők</li>
+        <li>Oktatási körülmények áttekintése.</li>
+        <li>Felhasználás.</li>
+        <li>Hivatkozások külső forrásokra.</li>
+        <li>Gyakorlat.</li>
+      </ul>
+    </section>
+
+    <!-- Bemutatkozás -->
+    <section id="bemutatkozas">
+
+      <!-- Intro overview. -->
+      <section>
+        <h2>Közreműködők</h2>
+      </section>
+
+      <section>
+        <h2>A stáb</h2>
+        <ul>
+          <li><a href="https://www.facebook.com/major.zsofi">Major Zsófi <a href="http://cheppers.com/">(Cheppers)</a></li>
+          <li><a href="https://www.facebook.com/palocz.istvan">Palócz István (pp)</a> </li>
+          <li><a href="https://www.facebook.com/kuszing.janos">Kuszing János (janoka)</a></li>
+          <li><a href="https://www.facebook.com/dallos.miklos">Dallos Miklós</a></li>
+        </ul>
+      </section>
+
+    </section>
+
+    <!-- Agenda -->
+    <section id="agenda">
+
+      <!-- Cím -->
+      <section>
+        <h2>Oktatási körülmények áttekintése</h2>
+      </section>
+
+      <!-- Timing -->
+      <section id="timing">
+        <h2>Mai nap:</h2>
+        <ul>
+          <li>15 perces szünetek.</li>
+          <li>3/4 óra ebédszünet.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Mi, hol található</h2>
+        <p>
+          <img style="width: 200px;" src="images/01/01_restroom-sign.jpg" alt="WC"/>
+          <img style="width: 200px;" src="images/01/01_cup-coffee-icon.png" alt="Kávé, büfé."/>
+        </p>
+      </section>
+    </section>
+
+    <!-- General Things -->
+    <section id="altalanos-feltetelek">
+      <h2>Általános használati feltételek</h2>
+      <ul>
+        <li>Felhasznált anyagok forrásai megjelöltek.</li>
+      </ul>
+    </section>
+
+    <!-- Tananyag -->
+    <section id="tananyag">
+      <h2>Tananyag</h2>
+      <ul>
+        <li class="fragment">Alapfogalmak.</li>
+        <li class="fragment">Drupal telepítése.</li>
+        <li class="fragment">Drupal alapok.</li>
+        <li class="fragment">Alaprendszer bővítése külsős modulokkal.</li>
+      </ul>
+    </section>
+
+    <!-- Ajánlott anyagok -->
+    <section id="ajanlott-anyagok">
+      <section>
+        <h2>Ajánlott anyagok</h2>
+      </section>
+      <section>
+        <h3>Nagy Gusztáv jegyzet</h3>
+        <iframe src="http://nagygusztav.hu/drupal-7-alapismeretek" class="stretch"></iframe>
+        <p><a href="http://nagygusztav.hu/drupal-7-alapismeretek" target="_blank">http://nagygusztav.hu/drupal-7-alapismeretek</a></p>
+      </section>
+      <section>
+        <h3>Todd Tomlinson, John VanDyk:<br/>Pro Drupal 7 Development, 3rd Edition</h3>
+        <img src="images/01/01_apress.png" alt="Pro Drupal 7 Development, 3rd Edition" class="stretch"/>
+        <p><a href="http://www.apress.com/9781430228387" target="_blank">http://www.apress.com/9781430228387</a></p>
+      </section>
+      <section>
+        <h3>Angela Byron (Webchick):<br/>Using Drupal könyv</h3>
+        <img src="images/01/01_using_drupal.png" alt="Using Drupal könyv" class="stretch"/>
+        <p><a href="http://usingdrupal.com/" target="_blank">http://usingdrupal.com/</a></p>
+      </section>
+    </section>
+
+  </div> <!-- end: slides -->
+</div> <!-- end: reveal -->
+<!-- Slide End. -->
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+    transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+    // Parallax scrolling
+    // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+    // parallaxBackgroundSize: '2100px 900px',
+
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    ]
+  });
+</script>
+</body>
+</html>
