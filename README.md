@@ -28,7 +28,7 @@ Az alábbi segédanyag a [Drupal Global Training Day 2014-es](https://www.facebo
 
 Az oktatáson feltételezzük, hogy mindenki saját notebookkal tud részt venni. Azonos körülmények miatt egy virtuális gépet készítettünk, amelyre az alap fejlesztési környezet már telepített.
 
-Ha problémád, vagy észrevételed lenne a telepítéssel kapcsolatban, akkor ide: **dgtd [kukac] office.netstudio.hu** címre tudsz írni.
+Ha problémád, vagy észrevételed lenne a telepítéssel kapcsolatban, akkor ide: **dgtd [kukac] office.netstudio.hu** címre tudsz emailt írni.
 
 ### VirtualBox
 
