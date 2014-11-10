@@ -10,25 +10,23 @@ Régóta versengenek egymással a különféle nyílt forráskódú tartalomkeze
 
 Hallottál már a Drupalról, de eddig nem volt alkalmad jobban megismerni? Szeretnéd megtudni, hogy mire jó, és mire nem jó a Drupal? Esetleg foglalkoztál már vele, és érdekel is, de szívesen vennéd, ha egy szakember segítene neked az alaplépések elsajátításában? Vegyél részt a Drupal Global Training Day-en!
 
-## Segédanyag
-
-Az alábbi segédanyag a [Drupal Global Training Day 2014-es](https://www.facebook.com/events/1523377531234105/) előadás kapcsán készült.
-
-**A stáb:**
+## Közreműködők
 
 - Cs. Nagy Attila (azaz: *hairqles*) segédoktató: [https://www.drupal.org/u/hairqles](https://www.drupal.org/u/hairqles).
 - Dallos Miklós segédoktató: [https://www.facebook.com/dallos.miklos](https://www.facebook.com/dallos.miklos).
 - Kuszing János (azaz: *janoka*) oktató: [https://netstudio.hu/](https://netstudio.hu/).
-- Major Zsófi főszervező: [https://www.facebook.com/major.zsofi](https://www.facebook.com/major.zsofi).
+- Major Zsófi főszervező: [https://www.drupal.org/u/zsofi.major](https://www.drupal.org/u/zsofi.major).
 - Németh Ferenc (azaz: *nemethf*) segédoktató: [https://www.drupal.org/u/nemethf](https://www.drupal.org/u/nemethf).
 - Palócz István (azaz: *pp*) oktató: [https://tanarurkerem.hu/](https://tanarurkerem.hu/);
 - Segesvári Dávid (azaz: *segi*) segédoktató: [https://www.drupal.org/u/segi](https://www.drupal.org/u/segi).
 
 Ez előadás helyszínét a [Cheppers](http://cheppers.com/) szervezte le.
 
-Az oktatáson feltételezzük, hogy mindenki saját notebookkal tud részt venni. Azonos körülmények miatt egy virtuális gépet készítettünk, amelyre az alap fejlesztési környezet már telepített.
-
 ## Telepítés
+
+Az alábbi segédanyag a [Drupal Global Training Day 2014-es](https://www.facebook.com/events/1523377531234105/) előadás kapcsán készült.
+
+Az oktatáson feltételezzük, hogy mindenki saját notebookkal tud részt venni. Azonos körülmények miatt egy virtuális gépet készítettünk, amelyre az alap fejlesztési környezet már telepített.
 
 ### VirtualBox
 
