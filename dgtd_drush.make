@@ -5,8 +5,8 @@ api = 2
 
 defaults[projects][subdir] = "contrib"
 
-; Drupal
-projects[] = "drupal"
+; Drupal Localized Version
+projects[l10n_install][type] = core
 
 ; Administration modules.
 projects[] = "admin_menu"
