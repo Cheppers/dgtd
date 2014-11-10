@@ -2,14 +2,29 @@
 
 ## Bevezető
 
+Új helyszín: **Müszi, 1085 Budapest Blaha Lujza tér 1.** (Corvin áruház III. emelet, bejárat a Somogyi Béla utca felől)
+
+Térkép: https://goo.gl/maps/ntWs4
+
+Régóta versengenek egymással a különféle nyílt forráskódú tartalomkezelő rendszerek. Mi a Drupal mellett tettük le a voksunkat évekkel ezelőtt a rugalmassága, a testreszabhatósága és a köré épülő közösség ereje miatt.
+
+Hallottál már a Drupalról, de eddig nem volt alkalmad jobban megismerni? Szeretnéd megtudni, hogy mire jó, és mire nem jó a Drupal? Esetleg foglalkoztál már vele, és érdekel is, de szívesen vennéd, ha egy szakember segítene neked az alaplépések elsajátításában? Vegyél részt a Drupal Global Training Day-en!
+
+## Segédanyag
+
 Az alábbi segédanyag a [Drupal Global Training Day 2014-es](https://www.facebook.com/events/1523377531234105/) előadás kapcsán készült.
 
-**Az oktatók közreműködésével:**
+**A stáb:**
 
-- Palócz István (azaz: *pp*): [https://tanarurkerem.hu/](https://tanarurkerem.hu/);
-- Kuszing János (azaz: *janoka*): [https://netstudio.hu/](https://netstudio.hu/).
+- Cs. Nagy Attila (azaz: *hairqles*) segédoktató: [https://www.drupal.org/u/hairqles](https://www.drupal.org/u/hairqles).
+- Dallos Miklós segédoktató: [https://www.facebook.com/dallos.miklos](https://www.facebook.com/dallos.miklos).
+- Kuszing János (azaz: *janoka*) oktató: [https://netstudio.hu/](https://netstudio.hu/).
+- Major Zsófi főszervező: [https://www.facebook.com/major.zsofi](https://www.facebook.com/major.zsofi).
+- Németh Ferenc (azaz: *nemethf*) segédoktató: [https://www.drupal.org/u/nemethf](https://www.drupal.org/u/nemethf).
+- Palócz István (azaz: *pp*) oktató: [https://tanarurkerem.hu/](https://tanarurkerem.hu/);
+- Segesvári Dávid (azaz: *segi*) segédoktató: [https://www.drupal.org/u/segi](https://www.drupal.org/u/segi).
 
-Ez előadás helyszínét a [Cheppers](http://cheppers.com/) adja.
+Ez előadás helyszínét a [Cheppers](http://cheppers.com/) szervezte le.
 
 Az oktatáson feltételezzük, hogy mindenki saját notebookkal tud részt venni. Azonos körülmények miatt egy virtuális gépet készítettünk, amelyre az alap fejlesztési környezet már telepített.
 
