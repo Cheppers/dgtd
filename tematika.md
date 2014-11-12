@@ -8,9 +8,9 @@
 | 10:10  | A Drupal világa                        | pp        |
 | 10:45  | Telepítés                              | janoka    |
 | 11:15  | Szünet                                 |           |
-| 11:30  | Telepítést követően                    |           |
-| 12:00  | Adminisztrációt segítő modulok         |           |
-| 12:15  | Modulokról                             |           |
+| 11:30  | Telepítést követően                    | pp        |
+| 12:00  | Adminisztrációt segítő modulok         | janoka    |
+| 12:15  | Modulokról                             | janoka    |
 | 12:45  | Ebédszünet                             |           |
 | 13:30  | Tartalomszerkesztést segítő modulok    |           |
 | 14:00  | Tartalomtípusok és mezők               |           |
