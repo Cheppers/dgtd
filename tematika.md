@@ -2,22 +2,22 @@
 
 ## Időbeosztás szerint
 
-| Kezdés | Téma                                   | Ki tartja |
-| ------ | -------------------------------------- | --------- |
-| 10:00  | Bevezető                               | ketten    |
-| 10:10  | A Drupal világa                        | pp        |
-| 10:45  | Telepítés                              | janoka    |
-| 11:15  | Szünet                                 |           |
-| 11:30  | Telepítést követően                    | pp        |
-| 12:00  | Adminisztrációt segítő modulok         | janoka    |
-| 12:15  | Modulokról                             | janoka    |
-| 12:45  | Ebédszünet                             |           |
-| 13:30  | Tartalomszerkesztést segítő modulok    |           |
-| 14:00  | Tartalomtípusok és mezők               |           |
-| 14:45  | Szünet                                 |           |
-| 15:00  | Nézetek                                |           |
-| 15:30  | Kérdések                               | ketten    |
-| 15:45  | Zárás                                  |           |
+| Kezdés | Téma                                            | Ki tartja |
+| ------ | ----------------------------------------------- | --------- |
+| 10:00  | Bevezető                                        | ketten    |
+| 10:10  | A Drupal világa                                 | pp        |
+| 10:45  | Telepítés                                       | janoka    |
+| 11:15  | Szünet                                          |           |
+| 11:30  | Telepítést követően                             | pp        |
+| 12:00  | Adminisztrációt segítő modulok                  | janoka    |
+| 12:15  | Modulokról                                      | janoka    |
+| 12:45  | Ebédszünet                                      |           |
+| 13:30  | Esetleg: Tartalomszerkesztést segítő modulok    |           |
+| 14:00  | Esetleg: Tartalomtípusok és mezők               |           |
+| 14:45  | Szünet                                          |           |
+| 15:00  | Esetleg: Nézetek                                |           |
+| 15:30  | Kérdések                                        | ketten    |
+| 15:45  | Zárás                                           |           |
 
 ## Bevezető
 
