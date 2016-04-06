@@ -64,7 +64,7 @@ A gyakorlatot megelőzően célszerű lehet ezeket leellenőrizni, hogy a virtu�
 
 | Megnevezés            | Url                                                                    | Felhasználó | Jelszó |
 | --------------------- | ---------------------------------------------------------------------- | ----------- | ------ |
-| Weboldal              | [http://localhost:8600/](http://localhost:8600/)                       |             |        |
+| Weboldal              | [http://localhost:8600/dgtd_site](http://localhost:8600/dgtd_site)     | dgtd        | titok  |
 | PhpMyAdmin            | [http://localhost:8600/phpmyadmin](http://localhost:8600/phpmyadmin)   | root        | titok  |
 | Php Info              | [http://localhost:8600/phpinfo.php](http://localhost:8600/phpinfo.php) | root        | titok  |
 | Ssh                   | például: `ssh -p 2222 root@localhost`                                  | root        | titok  |
@@ -83,4 +83,4 @@ Ezekre a beállításokra a gyakorlat közben lesz szükség, a Drupal telepít�
 
 | Megnevezés              | Érték                                                                        |
 | ----------------------- | ---------------------------------------------------------------------------- |
-| Dgtd Drupal a GitHubon  | [http://github.com/janoka/dgtd-drupal](http://github.com/janoka/dgtd-drupal) |
+| Dgtd a GitHubon  | [https://github.com/Cheppers/dgtd](https://github.com/Cheppers/dgtd) |
