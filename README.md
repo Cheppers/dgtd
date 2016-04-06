@@ -18,7 +18,7 @@ Az alábbi segédanyag a [Drupal Global Training Day 2014-es](https://www.facebo
 
 Az oktatáson feltételezzük, hogy mindenki saját notebookkal tud részt venni. Azonos körülmények miatt egy virtuális gépet készítettünk, amelyre az alap fejlesztési környezet már telepített.
 
-Ha problémád, vagy észrevételed lenne a telepítéssel kapcsolatban, akkor ide: **dgtd [kukac] david.segesvari@cheppers.com** címre tudsz emailt írni.
+Ha problémád, vagy észrevételed lenne a telepítéssel kapcsolatban, akkor ide: **david.segesvari[kukac]cheppers.com** címre tudsz emailt írni.
 
 ### VirtualBox
 
@@ -48,7 +48,7 @@ Az ssh klienst a virtuális gép távoli elérésére használjuk, sokkal kénye
 
 Innen tudod a virtuális gépet letölteni:
 
-[https://netstudio.hu/dgtd/DrupalGlobalTrainingDay.ova](https://netstudio.hu/dgtd/DrupalGlobalTrainingDay.ova)
+[https://cheppers.com/sites/default/files/static/DGTD_2016_3.ova](https://cheppers.com/sites/default/files/static/DGTD_2016_3.ova)
 
 ### Beimportálása
 
