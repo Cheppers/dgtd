@@ -54,7 +54,7 @@ Innen tudod a virtuális gépet letölteni:
 
 Lépések:
 
-- A *Fájl -> Gép importálás* menüpontot kiválasztva a letöltött *DrupalGlobalTrainingDay.ova* fájlt kell megadni. Majd *"Következő"*.
+- A *Fájl -> Gép importálás* menüpontot kiválasztva a letöltött *DGTD_2016_3.ova* fájlt kell megadni. Majd *"Következő"*.
 - A *"Gép beállításai"* alatt a *"MAC címek újra-inicializálása a hálózati kártyákhoz"* bepipálva legyen. Majd *"Importálás"*. Ezt követően a virtuális gép megjelenik a listában.
 - Ekkor jön a gép elindítása.
 
