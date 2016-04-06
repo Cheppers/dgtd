@@ -1,10 +1,10 @@
-# Drupal Global Training Day 2014.
+# Drupal Global Training Day 2016.
 
 ## Bevezető
 
-Új helyszín: **Müszi, 1085 Budapest Blaha Lujza tér 1.** (Corvin áruház III. emelet, bejárat a Somogyi Béla utca felől)
+Helyszín: **Cheppers iroda, 1137 Budapest Szent István körút 22.**
 
-Térkép: https://goo.gl/maps/ntWs4
+Térkép: https://goo.gl/maps/KkzPgGZg77v
 
 Régóta versengenek egymással a különféle nyílt forráskódú tartalomkezelő rendszerek. Mi a Drupal mellett tettük le a voksunkat évekkel ezelőtt a rugalmassága, a testreszabhatósága és a köré épülő közösség ereje miatt.
 
@@ -12,27 +12,17 @@ Hallottál már a Drupalról, de eddig nem volt alkalmad jobban megismerni? Szer
 
 ## Közreműködők
 
-- Cs. Nagy Attila (azaz: *hairqles*) segédoktató: [https://www.drupal.org/u/hairqles](https://www.drupal.org/u/hairqles).
-- Dallos Miklós segédoktató: [https://www.facebook.com/dallos.miklos](https://www.facebook.com/dallos.miklos).
-- Drabik Tibor segédoktató.
-- Kuszing János (azaz: *janoka*) oktató: [https://netstudio.hu/](https://netstudio.hu/).
-- Major Zsófi főszervező: [https://www.drupal.org/u/zsofi.major](https://www.drupal.org/u/zsofi.major).
-- Németh Ferenc (azaz: *nemethf*) segédoktató: [https://www.drupal.org/u/nemethf](https://www.drupal.org/u/nemethf).
-- Palócz István (azaz: *pp*) oktató: [https://tanarurkerem.hu/](https://tanarurkerem.hu/).
-
-Ez előadás helyszínét a [Cheppers](http://cheppers.com/) szervezte le.
-
 ## Telepítés
 
 Az alábbi segédanyag a [Drupal Global Training Day 2014-es](https://www.facebook.com/events/1523377531234105/) előadás kapcsán készült.
 
 Az oktatáson feltételezzük, hogy mindenki saját notebookkal tud részt venni. Azonos körülmények miatt egy virtuális gépet készítettünk, amelyre az alap fejlesztési környezet már telepített.
 
-Ha problémád, vagy észrevételed lenne a telepítéssel kapcsolatban, akkor ide: **dgtd [kukac] office.netstudio.hu** címre tudsz emailt írni.
+Ha problémád, vagy észrevételed lenne a telepítéssel kapcsolatban, akkor ide: **dgtd [kukac] david.segesvari@cheppers.com** címre tudsz emailt írni.
 
 ### VirtualBox
 
-Erről az oldalról tutod a legutolsó változatot leszedni a saját rendszeredhez, ez jelenleg a *4.3.18-as*:
+Erről az oldalról tutod a legutolsó változatot leszedni a saját rendszeredhez, ez jelenleg a *5.0.16-os*:
 
 [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
@@ -74,9 +64,9 @@ A gyakorlatot megelőzően célszerű lehet ezeket leellenőrizni, hogy a virtu�
 
 | Megnevezés            | Url                                                                    | Felhasználó | Jelszó |
 | --------------------- | ---------------------------------------------------------------------- | ----------- | ------ |
-| Weboldal              | [http://localhost:8080/](http://localhost:8080/)                       |             |        |
-| PhpMyAdmin            | [http://localhost:8080/phpmyadmin](http://localhost:8080/phpmyadmin)   | root        | titok  |
-| Php Info              | [http://localhost:8080/phpinfo.php](http://localhost:8080/phpinfo.php) | root        | titok  |
+| Weboldal              | [http://localhost:8600/](http://localhost:8600/)                       |             |        |
+| PhpMyAdmin            | [http://localhost:8600/phpmyadmin](http://localhost:8600/phpmyadmin)   | root        | titok  |
+| Php Info              | [http://localhost:8600/phpinfo.php](http://localhost:8600/phpinfo.php) | root        | titok  |
 | Ssh                   | például: `ssh -p 2222 root@localhost`                                  | root        | titok  |
 | Webszerver könyvtára  | `/srv/www`                                                             |             |        |
 
@@ -86,7 +76,7 @@ Ezekre a beállításokra a gyakorlat közben lesz szükség, a Drupal telepít�
 
 | Megnevezés              | Url                                                                  | Felhasználó | Jelszó |
 | ----------------------- | -------------------------------------------------------------------- | ----------- | ------ |
-| Weboldal elérése        | [http://localhost:8080/dgtd/](http://localhost:8080/dgtd/)           |             |        |
+| Weboldal elérése        | [http://localhost:8600/dgtd/](http://localhost:8600/dgtd/)           |             |        |
 | MySQL adatbázis elérése | dgtd                                                                 | dgtd        | titok  |
 
 ## Egyéb információ
