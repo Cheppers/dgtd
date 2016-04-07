@@ -12,7 +12,7 @@
 - Események
 - Nagyobb Drupalon futó oldalak
 
-## Drupal telepítése
+## A Drupal 8 telepítése
 - Mire van szükségünk a Drupalhoz?
 - Hogyan frissítsünk?
 - Modulok, sminkek (letöltés, verziók)
